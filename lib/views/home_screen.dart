@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../controllers/search_controller.dart';
 import '../data_sources/firebase_services.dart';
+import '../main.dart';
 import '../resources/widgets/home/body_home.dart';
 import '../resources/widgets/home/header_home.dart';
 
@@ -16,6 +17,18 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getFirebaseToken();
+  }
+
+  void getFirebaseToken() async {
+    final tokenFirebase = await messaging.getToken() ?? "";
+    // print("tokenFirebase: " + tokenFirebase);
+  }
+
   FirebaseServices firebaseServices = FirebaseServices();
 
   @override
