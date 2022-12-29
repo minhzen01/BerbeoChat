@@ -24,7 +24,7 @@ const String sticker = "assets/icons/sticker.svg";
 const String cardUser = "assets/icons/carduser.svg";
 const String location = "assets/icons/location.svg";
 
-const String amzChatIcon = "assets/images/amz_chat.png";
+const String amzChatIcon = "assets/images/amz_chat2.png";
 const String placeholderImage = "assets/images/image-placeholder.jpeg";
 
 TextStyle txtRegular(double size, [Color? color]) =>
