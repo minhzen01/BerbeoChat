@@ -26,7 +26,7 @@ Notification
 -	Người dùng sẽ nhận được thông báo khi có tin nhắn thông qua FCM (Firebase cloud messaging)
 
 Member team:
-  Nguyễn Quang Minh
-  Trịnh Phan Mai Trang
-  Khổng Quang Linh
-  Lý Minh Tú
+  - Nguyễn Quang Minh
+  - Trịnh Phan Mai Trang
+  - Khổng Quang Linh
+  - Lý Minh Tú
