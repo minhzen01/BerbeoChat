@@ -1,16 +1,32 @@
-# appchat
+# BerbeoChat
 
-A new Flutter project.
+Các chức năng:
 
-## Getting Started
+Đăng ký:
+-	Người dùng điền tên, địa chỉ email, mật khẩu và chọn ảnh đại diện.
 
-This project is a starting point for a Flutter application.
+Đăng nhập:
+-	Người dùng có thể đăng nhập bằng tài khoản vừa tạo.
+-	Ngoài ra người dùng có thể đăng nhập thông qua tài khoản Google mà không cần đăng ký.
 
-A few resources to get you started if this is your first Flutter project:
+Quản lý tài khoản:
+-	Người dùng có thể thay đổi tên, ảnh đại diện bằng cách chọn ảnh trong máy hoặc có thể chụp ảnh bằng camera.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Tìm kiếm:
+-	Hiển thị danh sách tất cả user và có thể tìm kiếm người dùng theo tên, nhấn vào người dùng cần tìm kiếm để đến màn hình trò chuyện.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Gửi tin nhắn:
+-	Trong cuộc trò chuyện user có thể gửi văn bản, hình ảnh, video, sticker, danh thiếp, vị trí trực tiếp cho người mình đang trò chuyện cùng.
+
+Gọi điện:
+-	User có thể gọi voice call và video call với nhau
+-	Trong khi gọi điện thì người dùng cũng có thể nhắn tin với nhau. Người dùng có thể tắt hoặc bật video, micro, loa và có thể thay đổi camera, xem được những người trong cuộc gọi
+
+Notification	
+-	Người dùng sẽ nhận được thông báo khi có tin nhắn thông qua FCM (Firebase cloud messaging)
+
+Member team:
+  Nguyễn Quang Minh
+  Trịnh Phan Mai Trang
+  Khổng Quang Linh
+  Lý Minh Tú
